@@ -1,0 +1,165 @@
+body{margin: 0;
+    padding: 0;
+    width:1000px;
+}
+
+/*头部*/
+
+.Header {
+    background-color: black;
+    width:1000px;
+    height:52px;
+}
+
+.logo{
+    float:left;
+    margin-left: 10px;
+}
+
+/*头部右侧导航栏*/
+
+.nav {
+    width:400px;
+    margin-left:600px;
+    position: absolute;
+}
+.nav li {
+    margin:0 12px;
+    float:left;
+}
+
+.nav li a {
+    color:white;
+    font-size:12px;
+    display:block;
+    text-decoration:none;
+}
+.nav li a:hover {
+    text-decoration: none;
+    color:lightgray;
+}
+
+/*主体*/
+
+.main{
+    background-color: lightgray;
+    overflow: hidden;
+    width: 1000px;
+}
+
+.main1{
+    background-color:white;
+    margin:10px 10px;
+    padding:10px;
+    border-right:1px solid;
+    border-bottom: 1px solid;
+    box-shadow: 1px 1px grey ;
+}
+
+/*部分文本格式*/
+
+h2{
+    color: black;
+}
+h3{
+    color: dimgray;
+}
+ h5{
+     color: lightgray;
+ }
+
+p{
+    text-indent: 2em;
+    font-size:12px ;
+    line-height: 150%;
+}
+
+.pro{
+    list-style-type: none;
+}
+
+/*图片栏*/
+
+.image{
+    width: 200px;
+    height:140px;
+    border: 1px solid lightgray;
+    padding:10px;
+    margin:10px 10px;
+}
+
+.image p{
+    text-align: center;
+}
+
+ol.decimal {list-style-type: decimal}
+
+/*表格*/
+
+table{
+    width:950px;
+    height:120px;
+    font-size: 13px;
+    text-align: left;
+}
+
+table,th,td{
+    border:2px solid lightgray;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: black;
+    color: white;
+}
+
+.lastlin{
+    background-color: lightgray;
+}
+
+/*侧栏*/
+
+.side{
+    margin-left: 10px;
+    border-left: 3px solid lightgray;
+}
+
+.alform{
+    margin-left: 200px;
+}
+
+form{
+    font-size: 10px;
+    margin-bottom:10px;
+}
+
+form p{
+    color: lightgray;
+}
+
+.selfin{
+    vertical-align: top;
+}
+
+.up{
+    width: 100%;
+    height:30px;
+    border:1px solid blue;
+    border-radius: 8px;
+    background-color: blue;
+    padding-top: 10px ;
+    text-align: center;
+    color: white;
+}
+
+/*尾部*/
+
+.Foot{
+    width: 100%;
+    height:50px;
+    background-color: black;
+    text-align: center;
+    margin:0 0;
+    padding-top:15px;
+    color: white;
+}
